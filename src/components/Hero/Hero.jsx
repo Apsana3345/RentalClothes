@@ -26,7 +26,7 @@ const ImageList=[{
 
 
 ];
-const HeroS= () => {
+const Hero= () => {
   var settings ={
     dots:false,
     arrows:false,
@@ -97,7 +97,7 @@ Order Now
   );
 };
 
-export default HeroS;
+export default Hero;
 
 
 

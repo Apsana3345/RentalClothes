@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import HeroS from './components/Hero/HeroS'
+import Hero from './components/Hero/Hero'
 import Product from './components/Products/Product'
 import AOS from "aos";
 import TopProducts from './components/Top Products/TopProducts';
@@ -22,7 +22,7 @@ const App = () => {
     <div >
      
       <Navbar/>
-      <HeroS/>
+      <Hero/>
       <Product/>
       <TopProducts/>
     </div>
