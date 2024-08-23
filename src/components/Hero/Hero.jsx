@@ -1,5 +1,5 @@
 import React from 'react'
-import Image1 from '../../assets/hero/Hero121Tradi.png'
+import Image1 from '../../assets/hero/Hero112Tradi.png'
 import Image2 from "../../assets/hero/Hero122Tradi.png"
 import Image3 from "../../assets/hero/Hero1Tradi.png"
 import Slider from 'react-slick'

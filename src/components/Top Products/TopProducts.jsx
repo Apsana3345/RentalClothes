@@ -1,8 +1,8 @@
 
 import React from "react";
-import Image1 from "..//..//assets/WomenImage/GreenLehenga.webp";
-import Image2 from "..//..//assets/WomenImage/PinkLehenga.webp";
-import Image3 from "..//..//assets/WomenImage/PinkKurta.jpg";
+import Image1 from "../../assets/WomenImage/GreenLehenga.webp";
+import Image2 from "../../assets/WomenImage/PinkLehenga.webp";
+import Image3 from "../../assets/WomenImage/PinkKurta.jpg";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
@@ -73,7 +73,7 @@ const TopProducts = () => {
                   <FaStar className="text-yellow-500" />
                 </div>
                 <h1 className="text-xl font-bold mb-2">{data.title}</h1>
-                <p className="text-gray-500 group-hover:text-black duration:300 text-sm line-clamp-2">{data.description}</p>
+                <p className="text-gray-500 group-hover:text-black duration:300  dark:text-white text-sm line-clamp-2">{data.description}</p>
                 <button
             className="bg-gradient-to-r from-custom-orange to-secondary hover:scale-105  duration-300 rounded-full mt-4 group-hover:bg-white group-hover:text-black text-black py-1 px-4  dark:text-white flex items-center gap-3   " 
           >
