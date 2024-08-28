@@ -1,6 +1,6 @@
 import React from "react";
 import Image1 from "../../assets/WomenImage/Wwear.png";
-import Image2 from "../../assets/WomenImage/Cwear.png";
+import Image2 from "../../assets/WomenImage/CWear.png";
 import Image3 from "../../assets/WomenImage/DaWear.png";
 import { FaStar } from "react-icons/fa";
 
