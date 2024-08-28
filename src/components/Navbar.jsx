@@ -4,8 +4,11 @@ import { IoMdSearch } from "react-icons/io";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaCaretDown } from "react-icons/fa";
 
-import Logo from "../assets/LogoTradition.png";
+// import Logo from "../assets/LogoTradition.png";
+import Logo from '../assets/Website/LogoTradition1.png';
+
 import DarkMode from "../components/DarkMode";
+import Login from "../components/Login/Login";
 
 
 const Menu = [
@@ -69,7 +72,7 @@ const DropdownLinks = [
   },
 ];
 
-const Navbar = () => {
+const Navbar = ({handleOrderPopUp}) => {
   return (
     <div className="shadow-md bg-white  dark:bg-gray-800   dark:text-white duration-300 relative z-40">
       {/* upper Navbar */}
@@ -83,7 +86,7 @@ const Navbar = () => {
               <img
                 src={Logo}
                 alt="Logo"
-                className="w-12 h-12   rounded-full bg-blue-500 "
+                className="w-12 h-12   rounded-full bg-white "
               />
               TraditionalAttire
             </a>
@@ -103,10 +106,8 @@ const Navbar = () => {
             </div>
           </div>
           {/* order button */}
-          <button
-            //  onClick={
-            //   alert("Ordering not available yet ")
-            // }
+         <button
+             onClick={ handleOrderPopUp}
             className="bg-gradient-to-r from-custom-orange to-secondary transition-all  duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3  "
           >
             <span
@@ -117,14 +118,23 @@ const Navbar = () => {
             </span>
             <FaShoppingCart className="text-xl  text-white drop-shadow-sm cursor-pointer" />
           </button>
+{/* signup */}
+
+
+
           {/* Darkmode switch */}
           <div>
             <DarkMode />
           </div>
+          <div>
+          
+                <button className="w-[10px]"onClick={Login}>
+                  <a href="/">SignUp</a></button>
+          </div>
         </div>
       </div>
       {/* lower navbar */}
-      <div className="flex justify-center">
+      <div data-aos="zoom-in" className="flex justify-center">
         <ul className="sm:flex hidden item-center gap-4">
           {Menu.map((data) => (
             <li key={data.id}>

@@ -1,40 +1,39 @@
-
 import React from "react";
-import Image1 from "../../assets/WomenImage/GreenLehenga.webp";
-import Image2 from "../../assets/WomenImage/PinkLehenga.webp";
-import Image3 from "../../assets/WomenImage/PinkKurta.jpg";
+import Image1 from "../../assets/WomenImage/Wwear.png";
+import Image2 from "../../assets/WomenImage/Cwear.png";
+import Image3 from "../../assets/WomenImage/DaWear.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
   {
     id: 1,
     img: Image1,
-    title: "Party Wear",
+    title: "Wedding Wear",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium incidunt sit exercitationem quis eaque unde commodi praesentium eius odit ",
   },
   {
     id: 2,
     img: Image2,
-    title: "Organzo Sari",
+    title: "Chettri Dress",
     description:
       "This is the best quality product made up of fabric silkLorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium incidunt sit exercitationem quis eaque unde commodi praesentium eius odit ",
   },
   {
     id: 3,
     img: Image3,
-    title: "Printed Kurta",
+    title: "Men's Daura Suruwal",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium incidunt sit exercitationem quis eaque unde commodi praesentium eius odit ",
   },
 ];
 
-const TopProducts = () => {
+const TopProducts = ({handleOrderPopUp}) => {
   return (
     <div>
       <div className="container">
         {/* Header Section */}
-        <div className="text-left mb-24">
+        <div className="text-left mb-40">
           <p data-aos="fade-up" className="text-sm text-custom-orange">
             Top Rated Clothes
           </p>
@@ -49,18 +48,19 @@ const TopProducts = () => {
           </p>
         </div>
         {/* Body Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  sm:gap-40 md:gap:5 place-items-center  ">
           {ProductsData.map((data) => (
             <div
-            data-aos="zoom-in"
-              className="rounded-2xl bg-white dark:bg-gray-800  dark:text-white relative shadow-xl duration-300 group max-w-[300px] mx-auto"
+              key={data.id}
+              data-aos="zoom-in"
+              className="rounded-2xl bg-white dark:bg-gray-500 hover:bg-black/80 dark:hover:dark:bg-custom-orange/40 hover:text-white relative shadow-xl duration-200 group max-w-[300px] "
             >
               {/* Image Section */}
-              <div className="h-[200px] overflow-hidden flex items-center justify-center ">
+              <div className=" h-[100px]  flex items-center justify-center ">
                 <img
                   src={data.img}
                   alt={data.title}
-                  className="max-w-full max-h-full object-cover transform group-hover:scale-105 duration-300 drop-shadow-md"
+                  className="max-w-[140px] block mx-auto  transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md "
                 />
               </div>
               {/* Details Section */}
@@ -73,21 +73,20 @@ const TopProducts = () => {
                   <FaStar className="text-yellow-500" />
                 </div>
                 <h1 className="text-xl font-bold mb-2">{data.title}</h1>
-                <p className="text-gray-500 group-hover:text-black duration:300  dark:text-white text-sm line-clamp-2">{data.description}</p>
-                <button
-            className="bg-gradient-to-r from-custom-orange to-secondary hover:scale-105  duration-300 rounded-full mt-4 group-hover:bg-white group-hover:text-black text-black py-1 px-4  dark:text-white flex items-center gap-3   " 
-          >
-            
-              Order Now
-            
-          
-          </button>
+                <p
+                  className="text-gray-400 
+                group-hover:text-white 
+                group-hover:dark:text-white duration:300  dark:hover:text-white text-sm line-clamp-2"
+                >
+                  {data.description}
+                </p>
+                <button className="bg-gradient-to-r from-custom-orange to-secondary hover:scale-105  duration-300 rounded-full mt-4 text-white group-hover:dark:text-white  py-1 px-4  dark:text-white flex items-center gap-3   "
+                onClick={handleOrderPopUp}>
+                  Order Now
+                </button>
               </div>
-              
             </div>
-            
           ))}
-          
         </div>
       </div>
     </div>

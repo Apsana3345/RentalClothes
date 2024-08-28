@@ -4,9 +4,18 @@ import Hero from './components/Hero/Hero'
 import Product from './components/Products/Product'
 import AOS from "aos";
 import TopProducts from './components/Top Products/TopProducts';
+import Banner from './components/Banner/Banner';
+import Subscribe from './components/Subscribe/Subscribe';
+import Testimonial from './components/Testimonials/Testimonial';
+import Footer from './components/Footer/Footer';
+import Popup from './components/Pop/Popup';
 
 
 const App = () => {
+  const[orderPopUp,setOrderPopUp]= React.useState(false);
+  const handleOrderPopUp=()=>{
+    setOrderPopUp(!orderPopUp);
+  };
   React.useEffect(() => {
     AOS.init({
       offset:100,
@@ -19,12 +28,19 @@ const App = () => {
     AOS.refresh
   }, []);
   return (
-    <div >
+    <div  className="bg-white dark:bg-gray-900 dark:text-white duration-200">
      
-      <Navbar/>
-      <Hero/>
+      <Navbar handleOrderPopUp={handleOrderPopUp}/>
+      <Hero handleOrderPopUp={handleOrderPopUp}/>
       <Product/>
-      <TopProducts/>
+      <TopProducts handleOrderPopUp={handleOrderPopUp}/>
+      <Banner/>
+      <Subscribe/>
+      <Product/>
+      <Testimonial/>
+      <Footer/>
+      <Popup orderPopUp={orderPopUp} setOrderPopUp={setOrderPopUp} />
+      
     </div>
   )
 }
