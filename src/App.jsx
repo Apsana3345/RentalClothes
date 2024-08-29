@@ -1,48 +1,59 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero/Hero'
-import Product from './components/Products/Product'
+import React,{useEffect,useState} from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AOS from "aos";
-import TopProducts from './components/Top Products/TopProducts';
-import Banner from './components/Banner/Banner';
-import Subscribe from './components/Subscribe/Subscribe';
-import Testimonial from './components/Testimonials/Testimonial';
-import Footer from './components/Footer/Footer';
-import Popup from './components/Pop/Popup';
-
+import Signup from "./components/Signup/Sigup";
+import Home from "./components/Home/Home";
+import Navbar from "./components/Navbar";
+import Login from "./components/Login/Login";
+import ProductPage from "./components/ProductPage/ProductPage";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
-  const[orderPopUp,setOrderPopUp]= React.useState(false);
-  const handleOrderPopUp=()=>{
-    setOrderPopUp(!orderPopUp);
-  };
-  React.useEffect(() => {
+     const [orderPopUp, setOrderPopUp] = useState(false);
+     const handleOrderPopUp = () => {
+       setOrderPopUp(!orderPopUp);
+     };
+  useEffect(() => {
     AOS.init({
-      offset:100,
+      offset: 100,
       duration: 1200, // Duration of animations in milliseconds
-      easing:"ease-in-sine",
-      delay:100,
-      
-
+      easing: "ease-in-sine",
+      delay: 100,
     });
-    AOS.refresh
+    AOS.refresh;
   }, []);
   return (
-    <div  className="bg-white dark:bg-gray-900 dark:text-white duration-200">
-     
-      <Navbar handleOrderPopUp={handleOrderPopUp}/>
-      <Hero handleOrderPopUp={handleOrderPopUp}/>
-      <Product/>
-      <TopProducts handleOrderPopUp={handleOrderPopUp}/>
-      <Banner/>
-      <Subscribe/>
-      <Product/>
-      <Testimonial/>
+    <main className="bg-white dark:bg-gray-900 dark:text-white duration-200">
+      <Navbar handleOrderPopUp={handleOrderPopUp} />
+      <Routes>
+        <Route
+          path="/"
+          element={<Home handleOrderPopUp={handleOrderPopUp} />}
+        />
+        <Route
+          path="/signup"
+          element={<Signup/>}
+        />
+        <Route
+          path="/login"
+          element={<Login  />}
+        />
+        {/* <Route
+          path="/products"
+          element={<ProductPage  />}
+        /> */}
+        <Route
+          path="/products/:category?"
+          element={<ProductPage  />}
+        />
+        <Route
+          path="/products/:category/:id"
+          // element={<ProductPage  />}
+        />
+      </Routes>
       <Footer/>
-      <Popup orderPopUp={orderPopUp} setOrderPopUp={setOrderPopUp} />
-      
-    </div>
-  )
-}
+    </main> 
+  );
+};
 
-export default App
+export default App;

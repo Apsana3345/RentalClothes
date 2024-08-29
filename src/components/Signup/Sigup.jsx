@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import axios from "axios";
 
-export default function Login() {
+export default function Signup() {
   const [name, setName] = useState();
 
   const [email, setEmail] = useState();
@@ -34,9 +34,24 @@ export default function Login() {
   return (
     <div className=" bg-red-100 min-h-screen  flex justify-center items-center dark:bg-gray-950   dark:text-white ">
       <div className="bg-gray-100  py-6  rounded p-10 dark:bg-gray-800   dark:text-white grid gap-4">
-        <h2 className="text-[30px] text-center md:text-[52px]">Login</h2>
+        <h2 className="text-[30px] text-center md:text-[52px]">Register</h2>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+          <div className="mb-3">
+            <label htmlFor="name ">
+              <span className="text-[16px] md:text-[22px]">Full Name :</span>
+            </label>
+            <br />
+            <input
+              type="text"
+              placeholder="Enter Your Name"
+              autoComplete="off"
+              name="name"
+              className="p-2 rounded-sm md:w-[20rem] w-[15rem] text-black outline-none"
+              onChange={(e) => setName(e.target.value)}
+            />
+          </div>
+
           <div className="mb-3">
             <label htmlFor="email">
               <span className="text-[16px] md:text-[22px]">
@@ -73,15 +88,15 @@ export default function Login() {
             type="submit"
             className="border-none p-2 md:w-[20rem] w-[15rem] rounded-sm bg-custom-orange/70  dark:bg-custom-orange/40 "
           >
-            Login
+            Register
           </button>
         </form>
 
         <div className="flex gap-4 items-center justify-center">
-          <p>New Here? Create New Account.</p>
+          <p>Already Have an account?</p>
 
-          <Link to="/signup" className="text-custom-orange">
-            Signup
+          <Link to="/login" className="text-custom-orange">
+            Login
           </Link>
         </div>
       </div>

@@ -30,7 +30,7 @@ const ProductsData = [
 
 const TopProducts = ({handleOrderPopUp}) => {
   return (
-    <div>
+    <div >
       <div className="container">
         {/* Header Section */}
         <div className="text-left mb-40">
@@ -48,12 +48,12 @@ const TopProducts = ({handleOrderPopUp}) => {
           </p>
         </div>
         {/* Body Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  sm:gap-40 md:gap:5 place-items-center  ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  sm:gap-40 md:gap:5 place-items-center  gap-40">
           {ProductsData.map((data) => (
             <div
               key={data.id}
               data-aos="zoom-in"
-              className="rounded-2xl bg-white dark:bg-gray-500 hover:bg-black/80 dark:hover:dark:bg-custom-orange/40 hover:text-white relative shadow-xl duration-200 group max-w-[300px] "
+              className=" hover:transition-all rounded-2xl bg-white dark:bg-gray-500 hover:bg-black/80 dark:hover:dark:bg-custom-orange/40 hover:text-white relative shadow-xl duration-200 group max-w-[300px] "
             >
               {/* Image Section */}
               <div className=" h-[100px]  flex items-center justify-center ">
@@ -80,8 +80,10 @@ const TopProducts = ({handleOrderPopUp}) => {
                 >
                   {data.description}
                 </p>
-                <button className="bg-gradient-to-r from-custom-orange to-secondary hover:scale-105  duration-300 rounded-full mt-4 text-white group-hover:dark:text-white  py-1 px-4  dark:text-white flex items-center gap-3   "
-                onClick={handleOrderPopUp}>
+                <button
+                  className="bg-gradient-to-r from-custom-orange to-secondary hover:scale-105  duration-300 rounded-full mt-4 text-white group-hover:dark:text-white  py-1 px-4  dark:text-white flex items-center gap-3   "
+                  onClick={handleOrderPopUp}
+                >
                   Order Now
                 </button>
               </div>
