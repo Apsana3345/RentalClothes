@@ -7,6 +7,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 
 
+
 const ImageList = [
   {
     id: 1,
@@ -28,6 +29,7 @@ const ImageList = [
   },
 ];
 const Hero = ({handleOrderPopUp}) => {
+  
   var settings = {
     dots: false,
     arrows: false,
@@ -40,6 +42,8 @@ const Hero = ({handleOrderPopUp}) => {
     pauseOnHover: false,
     pauseOnFocuse: true,
   };
+  
+
   return (
     <div className="relative pt-20 overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200">
       {/* background -pattern */}
@@ -71,7 +75,7 @@ const Hero = ({handleOrderPopUp}) => {
                     data-aos-delay="300"
                   >
                     <button className="bg-gradient-to-r from-custom-orange to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full" onClick={handleOrderPopUp}>
-                      Order Now
+                      Add to Cart
                     </button>
                   </div>
                 </div>

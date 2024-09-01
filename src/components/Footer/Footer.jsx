@@ -36,6 +36,9 @@ const FooterLinks = [
 ];
 
 const Footer = () => {
+  
+    // Get the current year
+    const currentYear = new Date().getFullYear();
   return (
     <div style={containerStyle} className="text-gray-800 dark:text-white mb-20">
      
@@ -56,7 +59,7 @@ const Footer = () => {
             </p>
           </div>
           {/* Footer links */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
+          <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 ">
             <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3">Important Links</h1>
@@ -105,12 +108,18 @@ const Footer = () => {
                   <FaMobileAlt />
                   <p>+977 9805524744</p>
                 </div>
+                
               </div>
             </div>
+            
           </div>
         </div>
       </div>
+      <div className=" flex justify-center items-center bg-black text-white p-4 font-bold ">
+      <p>&copy; {currentYear} TraditionalAttire. All rights reserved.</p>
+  </div>
     </div>
+    
   );
 };
 

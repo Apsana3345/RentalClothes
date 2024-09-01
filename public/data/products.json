@@ -3,18 +3,18 @@
 [
   {
     "id": 1,
-    "name": "Embroidered Kurti",
+    "name": "DhakaSari",
     "brand": "FabIndia",
     "category": "Kurti",
     "available_count": 20,
     "price": 1499,
     "comment": "Comfortable and stylish",
     "more_info": "Made of cotton with intricate embroidery",
-    "imagelink": "../assets/WomenImage/Magar.jpg"
+    "imagelink": "../assets/RentalImage/DhakaSari.webp"
   },
   {
     "id": 2,
-    "name": "Silk Sari",
+    "name": "Magar Dress",
     "brand": "Nalli",
     "category": "Sari",
     "available_count": 15,
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "name": "Designer Ghagra Choli",
+    "name": "Gunyo Cholo",
     "brand": "Manish Malhotra",
     "category": "Ghagra Choli",
     "available_count": 8,
@@ -36,7 +36,7 @@
   },
   {
     "id": 4,
-    "name": "Wooden Printed Kurti",
+    "name": "Pink Kurta",
     "brand": "W for Woman",
     "category": "Wooden Kurti",
     "available_count": 30,
@@ -47,7 +47,7 @@
   },
   {
     "id": 5,
-    "name": "Chiffon Sari",
+    "name": "Pink Sari",
     "brand": "Biba",
     "category": "Sari",
     "available_count": 25,
@@ -58,47 +58,47 @@
   },
   {
     "id": 6,
-    "name": "Printed Kurti",
+    "name": "Magar Dress",
     "brand": "Aurelia",
     "category": "Kurti",
     "available_count": 18,
     "price": 1299,
     "comment": "Perfect for casual wear",
     "more_info": "Made with soft cotton",
-    "imagelink": "https://example.com/images/printed_kurti.jpg"
+    "imagelink": "../assets/WomenImage/Magar.jpg"
   },
   {
     "id": 7,
-    "name": "Embroidered Ghagra Choli",
+    "name": "Daura Suruwal",
     "brand": "Sabyasachi",
     "category": "Ghagra Choli",
     "available_count": 5,
     "price": 29999,
     "comment": "Exquisite craftsmanship",
     "more_info": "Embroidered with golden threads",
-    "imagelink": "https://example.com/images/embroidered_ghagra_choli.jpg"
+    "imagelink": "../assets/RentalImage/White_Daura_Suruwal.webp"
   },
   {
     "id": 8,
-    "name": "Banarasi Sari",
+    "name": "MakhmalCholo",
     "brand": "Kalki",
     "category": "Sari",
     "available_count": 10,
     "price": 10999,
     "comment": "Rich and luxurious",
     "more_info": "Banarasi silk with traditional motifs",
-    "imagelink": "https://example.com/images/banarasi_sari.jpg"
+    "imagelink": "../assets/RentalImage/MakhmalCholo.webp"
   },
   {
     "id": 9,
-    "name": "Floral Print Wooden Kurti",
+    "name": "Rai Lehenga",
     "brand": "Biba",
     "category": "Wooden Kurti",
     "available_count": 22,
     "price": 1799,
     "comment": "Elegant and comfortable",
     "more_info": "Wooden block printed with floral patterns",
-    "imagelink": "https://example.com/images/floral_print_wooden_kurti.jpg"
+    "imagelink": "../assets/RentalImage/RaiLehenga.webp"
   },
   {
     "id": 10,
@@ -109,347 +109,348 @@
     "price": 1899,
     "comment": "Breathable and soft",
     "more_info": "Made from 100% linen",
-    "imagelink": "https://example.com/images/linen_kurti.jpg"
+    "imagelink": "../assets/RentalImage/PinkAnarkaliKurti.webp"
   },
   {
     "id": 11,
-    "name": "Silk Ghagra Choli",
+    "name": "Yellow Kurti",
     "brand": "Anita Dongre",
     "category": "Ghagra Choli",
     "available_count": 7,
     "price": 26999,
     "comment": "Beautiful and stylish",
     "more_info": "Rich silk with hand embroidery",
-    "imagelink": "https://example.com/images/silk_ghagra_choli.jpg"
+    "imagelink": "../assets/RentalImage/KurtiYellow.webp"
   },
   {
     "id": 12,
-    "name": "Cotton Sari",
+    "name": "Newari Shwal",
     "brand": "Shree",
     "category": "Sari",
     "available_count": 20,
     "price": 2999,
     "comment": "Comfortable for daily wear",
     "more_info": "Pure cotton with hand block prints",
-    "imagelink": "https://example.com/images/cotton_sari.jpg"
+    "imagelink": "../assets/RentalImage/NewariShwal.webp"
   },
   {
     "id": 13,
-    "name": "Paisley Print Wooden Kurti",
+    "name": "Newari Blouse",
     "brand": "Jaipur Kurti",
     "category": "Wooden Kurti",
     "available_count": 25,
     "price": 1599,
     "comment": "Traditional and stylish",
     "more_info": "Paisley printed with vegetable dyes",
-    "imagelink": "https://example.com/images/paisley_print_wooden_kurti.jpg"
+    "imagelink": "../assets/RentalImage/NewariBlouse.webp"
   },
   {
     "id": 14,
-    "name": "Chanderi Silk Kurti",
+    "name": "RaiLehenga",
     "brand": "Ritu Kumar",
     "category": "Kurti",
     "available_count": 12,
     "price": 2399,
     "comment": "Elegant with a touch of tradition",
     "more_info": "Chanderi silk with zari borders",
-    "imagelink": "https://example.com/images/chanderi_silk_kurti.jpg"
+    "imagelink": "../assets/RentalImage/RaiLehenga.webp"
   },
   {
     "id": 15,
-    "name": "Traditional Sari",
+    "name": "Men's Wedding",
     "brand": "Tarun Tahiliani",
     "category": "Sari",
     "available_count": 10,
     "price": 8999,
     "comment": "Perfect for festive occasions",
     "more_info": "Rich colors with traditional designs",
-    "imagelink": "https://example.com/images/traditional_sari.jpg"
+    "imagelink": "../assets/RentalImage/MenWedding.jpg"
   },
   {
     "id": 16,
-    "name": "Cotton Ghagra Choli",
+    "name": "CrimsonBridalLehenga",
     "brand": "Neeru's",
     "category": "Ghagra Choli",
     "available_count": 6,
     "price": 11999,
     "comment": "Light and comfortable",
     "more_info": "Cotton fabric with mirror work",
-    "imagelink": "https://example.com/images/cotton_ghagra_choli.jpg"
+    "imagelink": "../assets/RentalImage/CrimsonBridalLehenga.jpg"
   },
   {
     "id": 17,
-    "name": "Handloom Sari",
+    "name": "PrintedDauraSuruwal",
     "brand": "Raw Mango",
     "category": "Sari",
     "available_count": 15,
     "price": 7999,
     "comment": "Exquisite handloom creation",
     "more_info": "Woven by artisans with traditional techniques",
-    "imagelink": "https://example.com/images/handloom_sari.jpg"
+    "imagelink": "../assets/RentalImage/PrintedDauraSuruwal.webp"
   },
   {
     "id": 18,
-    "name": "Block Print Wooden Kurti",
+    "name": "DhakaSari",
     "brand": "W for Woman",
     "category": "Wooden Kurti",
     "available_count": 28,
     "price": 1499,
     "comment": "Simple yet stylish",
     "more_info": "Block printed with natural dyes",
-    "imagelink": "https://example.com/images/block_print_wooden_kurti.jpg"
+    "imagelink": "../assets/RentalImage/DhakaSari.webp"
+    
   },
   {
     "id": 19,
-    "name": "Bandhani Kurti",
+    "name": "GreenLehenga",
     "brand": "FabIndia",
     "category": "Kurti",
     "available_count": 18,
     "price": 1899,
     "comment": "Traditional and vibrant",
     "more_info": "Bandhani dyed with rich colors",
-    "imagelink": "https://example.com/images/bandhani_kurti.jpg"
+    "imagelink": "../assets/RentalImage/GreenLehenga.jpg"
   },
   {
     "id": 20,
-    "name": "Velvet Ghagra Choli",
+    "name": "White Mens Wedding Suit",
     "brand": "Abu Jani Sandeep Khosla",
-    "category": "Ghagra Choli",
+    "category": "Suit",
     "available_count": 4,
     "price": 31999,
     "comment": "Luxurious and glamorous",
     "more_info": "Velvet with intricate embellishments",
-    "imagelink": "https://example.com/images/velvet_ghagra_choli.jpg"
+    "imagelink": "../assets/RentalImage/WhiteMensWeddingShoot.jpg"
   },
   {
     "id": 21,
-    "name": "Printed Chiffon Sari",
+    "name": "Tamang-dress",
     "brand": "Biba",
-    "category": "Sari",
+    "category": "Tamang",
     "available_count": 12,
     "price": 3499,
     "comment": "Lightweight and airy",
     "more_info": "Chiffon with vibrant prints",
-    "imagelink": "https://example.com/images/printed_chiffon_sari.jpg"
+    "imagelink": "../assets/RentalImage/bridegroom-tamang-dress.jpg"
   },
   {
     "id": 22,
-    "name": "Ethnic Wooden Kurti",
+    "name": "DHKA",
     "brand": "Jaipur Kurti",
-    "category": "Wooden Kurti",
+    "category": "Dhaka",
     "available_count": 26,
     "price": 1599,
     "comment": "Ethnic with a modern touch",
     "more_info": "Made with eco-friendly materials",
-    "imagelink": "https://example.com/images/ethnic_wooden_kurti.jpg"
+    "imagelink": "../assets/RentalImage/DHKA.webp"
   },
   {
     "id": 23,
-    "name": "Silk Embroidered Sari",
+    "name": " Golden Embroidered Sari",
     "brand": "Sabyasachi",
     "category": "Sari",
     "available_count": 7,
     "price": 19999,
     "comment": "Luxurious and detailed",
     "more_info": "Silk with intricate embroidery",
-    "imagelink": "https://example.com/images/silk_embroidered_sari.jpg"
+    "imagelink": "../assets/RentalImage/BridalGoldenLehenga.jpg"
   },
   {
     "id": 24,
-    "name": "Handwoven Ghagra Choli",
+    "name": "Black Suit",
     "brand": "Anita Dongre",
-    "category": "Ghagra Choli",
+    "category": "Suit",
     "available_count": 5,
     "price": 28999,
     "comment": "Handwoven with care",
     "more_info": "Made by artisans with intricate designs",
-    "imagelink": "https://example.com/images/handwoven_ghagra_choli.jpg"
+    "imagelink": "../assets/RentalImage/Black Suit.jpg"
   },
   {
     "id": 25,
-    "name": "Kalamkari Wooden Kurti",
+    "name": "Blue sari",
     "brand": "FabIndia",
     "category": "Wooden Kurti",
     "available_count": 20,
     "price": 1499,
     "comment": "Traditional and stylish",
     "more_info": "Kalamkari prints with natural dyes",
-    "imagelink": "https://example.com/images/kalamkari_wooden_kurti.jpg"
+    "imagelink": "../assets/RentalImage/Blue sari.jpg"
   },
   {
     "id": 26,
-    "name": "Silk Kurti",
+    "name": "BridalLehenga",
     "brand": "Ritu Kumar",
-    "category": "Kurti",
+    "category": "Lehenga",
     "available_count": 14,
     "price": 2499,
     "comment": "Rich and traditional",
     "more_info": "Pure silk with hand embroidery",
-    "imagelink": "https://example.com/images/silk_kurti.jpg"
+    "imagelink": "../assets/RentalImage/BridalLehenga.jpg"
   },
   {
     "id": 27,
-    "name": "Cotton Ghagra Choli",
+    "name": "Licra Sari",
     "brand": "Neeru's",
-    "category": "Ghagra Choli",
+    "category": "Sari",
     "available_count": 12,
     "price": 10999,
     "comment": "Light and festive",
     "more_info": "Cotton with mirror and thread work",
-    "imagelink": "https://example.com/images/cotton_ghagra_choli_mirrorwork.jpg"
+    "imagelink": "../assets/RentalImage/Licra sari.jpg"
   },
   {
     "id": 28,
-    "name": "Kantha Sari",
+    "name": "GurungLehenga",
     "brand": "Sabyasachi",
-    "category": "Sari",
+    "category": "Lehenga",
     "available_count": 5,
     "price": 15999,
     "comment": "Exquisite handwork",
     "more_info": "Kantha embroidery with silk threads",
-    "imagelink": "https://example.com/images/kantha_sari.jpg"
+    "imagelink": "../assets/RentalImage/GurungLehenga.webp"
   },
   {
     "id": 29,
-    "name": "Tie-Dye Wooden Kurti",
+    "name": "LehengaColourful",
     "brand": "Jaipur Kurti",
-    "category": "Wooden Kurti",
+    "category": "Lehenga",
     "available_count": 20,
     "price": 1699,
     "comment": "Trendy and unique",
     "more_info": "Tie-dye with natural colors",
-    "imagelink": "https://example.com/images/tie_dye_wooden_kurti.jpg"
+    "imagelink": "../assets/RentalImage/LehengaColourful.webp"
   },
   {
     "id": 30,
-    "name": "Raw Silk Kurti",
+    "name": "NewariSaree",
     "brand": "Ritu Kumar",
-    "category": "Kurti",
+    "category": "Sari",
     "available_count": 16,
     "price": 2399,
     "comment": "Rich and classy",
     "more_info": "Raw silk with intricate motifs",
-    "imagelink": "https://example.com/images/raw_silk_kurti.jpg"
+    "imagelink": "../assets/RentalImage/NewariSaree.webp"
   },
   {
     "id": 31,
-    "name": "Handwoven Sari",
+    "name": "DhakaSari",
     "brand": "Raw Mango",
     "category": "Sari",
     "available_count": 14,
     "price": 9499,
     "comment": "Handwoven with care",
     "more_info": "Traditional patterns with modern twist",
-    "imagelink": "https://example.com/images/handwoven_sari_patterns.jpg"
+    "imagelink": "../assets/RentalImage/DhakaSari.webp"
   },
   {
     "id": 32,
-    "name": "Indigo Wooden Kurti",
+    "name": "PinkFloral Lehenga",
     "brand": "Global Desi",
-    "category": "Wooden Kurti",
+    "category": "Lehenga",
     "available_count": 26,
     "price": 1799,
     "comment": "Traditional indigo print",
     "more_info": "Dyed with natural indigo",
-    "imagelink": "https://example.com/images/indigo_wooden_kurti.jpg"
+    "imagelink": "../assets/RentalImage/PinkFloralLehenga.jpg"
   },
   {
     "id": 33,
-    "name": "Velvet Ghagra Choli",
+    "name": "Peach Saree",
     "brand": "Manish Malhotra",
-    "category": "Ghagra Choli",
+    "category": "Saree",
     "available_count": 4,
     "price": 32999,
     "comment": "Luxurious and heavy",
     "more_info": "Velvet fabric with intricate embroidery",
-    "imagelink": "https://example.com/images/velvet_ghagra_choli.jpg"
+    "imagelink": "../assets/RentalImage/Peach saree.jpg"
   },
   {
     "id": 34,
-    "name": "Silk Georgette Sari",
+    "name": "Brocade Behula set",
     "brand": "Biba",
-    "category": "Sari",
+    "category": "Behula Dress",
     "available_count": 20,
     "price": 5499,
     "comment": "Lightweight and elegant",
     "more_info": "Silk georgette with modern patterns",
-    "imagelink": "https://example.com/images/silk_georgette_sari.jpg"
+    "imagelink": "../assets/RentalImage/Brocade Behula set.jpg"
   },
   {
     "id": 35,
-    "name": "Hand Block Kurti",
+    "name": "Kids Magar Dress",
     "brand": "FabIndia",
     "category": "Kurti",
     "available_count": 22,
     "price": 1999,
     "comment": "Traditional hand block prints",
     "more_info": "Made with soft cotton",
-    "imagelink": "https://example.com/images/hand_block_kurti.jpg"
+    "imagelink": "../assets/RentalImage/KidsMagarDress.webp"
   },
   {
     "id": 36,
-    "name": "Embroidered Ghagra Choli",
+    "name": "Dawra_Sruwal",
     "brand": "Sabyasachi",
-    "category": "Ghagra Choli",
+    "category": "Men's wear",
     "available_count": 5,
     "price": 31999,
     "comment": "Rich and ornate",
     "more_info": "Intricate embroidery with zari",
-    "imagelink": "https://example.com/images/embroidered_ghagra_choli_zari.jpg"
+    "imagelink": "../assets/RentalImage/Dawra_Sural_2.webp"
   },
   {
     "id": 37,
-    "name": "Chanderi Sari",
+    "name": "DhakaSari",
     "brand": "Ritu Kumar",
     "category": "Sari",
     "available_count": 12,
     "price": 6999,
     "comment": "Rich and elegant",
     "more_info": "Chanderi silk with traditional borders",
-    "imagelink": "https://example.com/images/chanderi_sari_borders.jpg"
+    "imagelink": "../assets/RentalImage/DhakaSari.webp"
   },
   {
     "id": 38,
-    "name": "Paisley Wooden Kurti",
+    "name": "Crimson Bridal Lehenga",
     "brand": "Jaipur Kurti",
-    "category": "Wooden Kurti",
+    "category": "Lehenga",
     "available_count": 25,
     "price": 1899,
     "comment": "Traditional and comfortable",
     "more_info": "Paisley motifs with natural dyes",
-    "imagelink": "https://example.com/images/paisley_wooden_kurti.jpg"
+    "imagelink": "../assets/RentalImage/CrimsonBridalLehenga.jpg"
   },
   {
     "id": 39,
-    "name": "Cotton Ghagra Choli",
+    "name": "Brown Suit",
     "brand": "Neeru's",
-    "category": "Ghagra Choli",
+    "category": "Suit",
     "available_count": 10,
     "price": 12999,
     "comment": "Light and festive",
     "more_info": "Cotton with hand embroidery",
-    "imagelink": "https://example.com/images/cotton_ghagra_choli_hand_embroidery.jpg"
+    "imagelink": "../assets/RentalImage/Brown Suit.jpg"
   },
   {
     "id": 40,
-    "name": "Zari Woven Sari",
+    "name": "Banarashi Sari",
     "brand": "Kalki",
     "category": "Sari",
     "available_count": 8,
     "price": 11999,
     "comment": "Traditional and luxurious",
     "more_info": "Zari woven with silk threads",
-    "imagelink": "https://example.com/images/zari_woven_sari.jpg"
+    "imagelink": "../assets/RentalImage/Banarashi Sari.jpg"
   },
   {
     "id": 41,
-    "name": "Handloom Kurti",
+    "name": "Handwork Sari",
     "brand": "FabIndia",
     "category": "Kurti",
     "available_count": 15,
     "price": 2299,
     "comment": "Simple and elegant",
     "more_info": "Zari woven with silk threads",
-    "imagelink": "https://example.com/images/zari_woven_sari.jpg"
+    "imagelink":"../assets/RentalImage/Complete Handwork Sari.jpg"
   }
 ]

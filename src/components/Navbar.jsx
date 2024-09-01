@@ -19,34 +19,34 @@ const Menu = [
   {
     id: 2,
     name: "Top Rated",
-    link: "#services",
+    link: "/top-products",
   },
   {
     id: 3,
     name: "Kurthis",
-    link: "/#",
+    link: "/kurti/:kurtis",
   },
   {
     id: 4,
     name: "Sari",
-    link: "/#",
+    link: "/Sari",
   },
   {
     id: 5,
     name: "GangraCholi",
-    link: "/#",
+    link: "/GangraCholi",
   },
   {
     id: 6,
     name: "WoolenKurti",
-    link: "/#",
+    link: "/WoolenKurti",
   },
 ];
 const DropdownLinks = [
   {
     id: 1,
     name: "Trending Products",
-    link: "/#",
+    link: "/trending-products",
   },
   {
     id: 2,
@@ -116,7 +116,7 @@ const Navbar = ({ handleOrderPopUp }) => {
               onClick={handleOrderPopUp}
               className="bg-gradient-to-r from-custom-orange to-secondary   text-white py-2 px-4 rounded-full flex items-center  "
             >
-              <FaShoppingCart className="text-xl h-3 w-3 sm:h-auto sm:w-auto text-white drop-shadow-sm cursor-pointer" />
+              <FaShoppingCart className="text-xl h-3 w-3 sm:h-auto sm:w-auto text-white drop-shadow-sm cursor-pointer" /> <sup>{'0'}</sup>
             </button>
             {/* signup */}
 

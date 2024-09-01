@@ -7,6 +7,9 @@ import Navbar from "./components/Navbar";
 import Login from "./components/Login/Login";
 import ProductPage from "./components/ProductPage/ProductPage";
 import Footer from "./components/Footer/Footer";
+import TopProducts from "./components/Top Products/TopProducts";
+
+
 
 const App = () => {
      const [orderPopUp, setOrderPopUp] = useState(false);
@@ -20,10 +23,11 @@ const App = () => {
       easing: "ease-in-sine",
       delay: 100,
     });
-    AOS.refresh;
+    AOS.refresh();
   }, []);
   return (
     <main className="bg-white dark:bg-gray-900 dark:text-white duration-200">
+       
       <Navbar handleOrderPopUp={handleOrderPopUp} />
       <Routes>
         <Route
@@ -47,11 +51,34 @@ const App = () => {
           element={<ProductPage  />}
         />
         <Route
+          path="/top-products"
+          element={<TopProducts  />}
+        />
+        <Route
+          path="/kurti/:kurtis/"
+          element={<ProductPage/>}
+        />
+        <Route
+          path="/Sari"
+          element={<ProductPage/>}
+        />
+        <Route
+          path="/GangraCholi"
+          element={<ProductPage/>}
+        />
+        <Route
+          path="/WoolenKurti"
+          element={<ProductPage/>}
+        />
+        
+        <Route
           path="/products/:category/:id"
           // element={<ProductPage  />}
         />
+         
       </Routes>
       <Footer/>
+      
     </main> 
   );
 };

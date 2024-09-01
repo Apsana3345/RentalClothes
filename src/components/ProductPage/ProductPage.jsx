@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import ProductFetch from "../../utils/ProductFetch";
+import ProductFetch from "../../ProductUse/ProductFetch";
 
 const ProductPage = () => {
   const [data, setData] = useState([]);
@@ -50,7 +50,7 @@ const ProductPage = () => {
                   </div>
                 </div>
               </Link>
-              <button className="bg-gradient-to-r from-custom-orange to-secondary  text-[15px]  text-white py-2 px-2 rounded-md flex items-center  ">
+              <button className="bg-gradient-to-r from-custom-orange to-secondary  text-[15px]  text-white py-1 px-2  rounded-md flex items-center  mr-12 mt-2">
                 Add to Cart
               </button>
             </div>

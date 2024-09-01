@@ -7,9 +7,10 @@ import Image4 from "../../assets/hero/kids-gunyo-cholo.webp";
 import Image5 from "..//..//assets/WomenImage/MDress.jpg";
 import { FaStar } from "react-icons/fa";
 import "aos/dist/aos.css";
-import ProductFetch from "../../utils/ProductFetch"
+import ProductFetch from "../../ProductUse/ProductFetch"
 
 const Product = () => {
+
   const [data, setData] = useState([]);
 
   useEffect(() => {

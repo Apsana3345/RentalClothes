@@ -31,13 +31,13 @@ const ProductsData = [
 const TopProducts = ({handleOrderPopUp}) => {
   return (
     <div >
-      <div className="container">
+      <div className="container mx-auto px-4 py-12">
         {/* Header Section */}
-        <div className="text-left mb-40">
+        <div className="text-left mb-40 mt-10 lg:px-8 lg:py-12">
           <p data-aos="fade-up" className="text-sm text-custom-orange">
             Top Rated Clothes
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">
+          <h1 data-aos="fade-up" className="text-2xl font-bold">
             Best Products
           </h1>
           <p className="text-xs text-gray-400">
@@ -84,7 +84,7 @@ const TopProducts = ({handleOrderPopUp}) => {
                   className="bg-gradient-to-r from-custom-orange to-secondary hover:scale-105  duration-300 rounded-full mt-4 text-white group-hover:dark:text-white  py-1 px-4  dark:text-white flex items-center gap-3   "
                   onClick={handleOrderPopUp}
                 >
-                  Order Now
+                 Details →
                 </button>
               </div>
             </div>
